@@ -1,0 +1,68 @@
+
+#recipe-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  #recipe-table th {
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #recipe-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .recipe-image {
+    display: block;
+    width: 250px;
+    height: auto;
+
+  }
+  
+  .recipe-name {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+  }
+  
+
+       
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  
+  #recipe-table {
+    padding: 20px;
+  }
+  
+  
+  tbody {
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    display: flexbox;
+  }
+  
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  td:nth-child(2) {
+    text-align: right;
+  }
+     
