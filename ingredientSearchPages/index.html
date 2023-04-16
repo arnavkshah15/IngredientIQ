@@ -28,9 +28,11 @@
       defer
       src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
     ></script>
+    
   </head>
 
   <body>
+   
     <section class="coloured-section" id="title">
       <div class="container-fluid">
         <!-- Nav Bar -->
@@ -118,10 +120,10 @@
         <p>Simple and affordable way to make use of ingredients available.</p>
         <div class="recipe-container">
             <div class="ingredient-based">
-                <form>
+                <form id="ingredient-form">
                     <label for="input1" class="input-label">Enter ingredients:</label>
-                    <input type="text" id="input1" name="input1" required>
-                    <input type="submit" value="Submit" onclick="processInput()">
+                    <input type="text" id="ingredients" name="input1">
+                    <input type="submit" value="Submit">
                 </form>
             
                
@@ -129,8 +131,8 @@
             <div class="calorie-based">
                 <form>
                     <label for="input1" class="input-label">Enter calories:</label>
-                    <input type="text" id="input1" name="input1" required>
-                    <input type="submit" value="Submit" onclick="processInput()">
+                    <input type="text" id="input1" name="input1" >
+                    <input type="submit1" value="Submit" onclick="processInput()">
                 </form>
             
 
@@ -166,5 +168,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="info.js"></script>
   </body>
 </html>
