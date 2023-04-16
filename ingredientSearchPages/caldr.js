@@ -1,4 +1,4 @@
-const apiKey = '   ';
+const apiKey = 'f4bf5ca7a67f40f8943d37f38b3ca068';
 
 const urlParams = new URLSearchParams(window.location.search);
 const recipeId = urlParams.get('recipeId');

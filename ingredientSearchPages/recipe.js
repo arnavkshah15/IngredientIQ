@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const ingredients = urlParams.get('ingredients');
-const apiKey = '506ffa2563e54ec0b93d72fe4142d0cd';
+const apiKey = 'f4bf5ca7a67f40f8943d37f38b3ca068';
 
 
 fetch(`https://api.spoonacular.com/recipes/findByIngredients?apiKey=${apiKey}&ingredients=${ingredients}`)
